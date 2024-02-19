@@ -1,0 +1,181 @@
+/* Body Style*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    
+}
+
+/* Body Style for homepage*/
+
+body[class="homepage"] {
+    font-family: Arial, sans-serif;
+    background-image: url('pizza.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Header Style*/
+
+label {
+    font-weight: bold;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/*Login Icon style*/
+
+.login-image {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.loginemail{
+    color: white;
+    position: absolute;
+    top: 65px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.logoutb{
+    color: white;
+    position: absolute;
+    top: 80px;
+    right: 10px;
+    cursor: pointer;
+}
+
+/*Navigation style*/
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li[id="login"] {
+    align-items:end;
+    margin: 0 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: #555;
+}
+
+
+
+/* Input box style*/
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea[id="message"]{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/*main section style*/
+
+main {
+    padding: 10px;
+}
+
+/*Style to display a as a button*/
+
+a.button {
+    display: inline-block;
+    padding: 0.5px 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+a.button:hover {
+    background-color: #555;
+}
+
+/* Menu item style*/
+
+section.menu {
+    display:flex;
+    justify-content:baseline;
+    flex-wrap: wrap;
+}
+
+.item {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.item img {
+    max-width: 250px;
+    border-radius: 5px;
+}
+
+.item h3 {
+    margin: 1px;
+}
+
+.item p {
+    color: #777;
+    margin: 0.5px;
+}
+
+section.form {
+    text-align: center;
+    margin: 10px auto;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Style */
+footer {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+}
+
+
+
